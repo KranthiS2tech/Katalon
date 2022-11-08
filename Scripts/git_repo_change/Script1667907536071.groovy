@@ -33,8 +33,6 @@ WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/button_Login'))
 
 WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/p_Punched Out'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_OrangeHRM/p_Punched Out'), 'Punched Out')
-
 WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/img'))
 
 WebUI.closeBrowser()
